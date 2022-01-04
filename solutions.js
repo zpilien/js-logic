@@ -7,7 +7,9 @@ else
 
 //Invoke your functions and console.log your results
 
-//1. Create a function named isRainy which takes a boolean parameter boo. This function will return the statement 'Bring an umbrella' if the boolean value is true.
+/*1. Create a function named isRainy which takes a boolean parameter boo. 
+This function will return the statement 'Bring an umbrella' if the boolean value is true.
+*/
 
 function isRainy(boo){
   if(boo === true){
