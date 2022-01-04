@@ -157,3 +157,23 @@ let sum = 0;
 for(let i = 1; i<101; i++){
   sum += i;
 }
+
+
+/*7. Create a for loop that will print numbers from 0 to 60, but will print:
+'Purple' if the number is divisible by 3
+'Maia' if the number is divisible by 5
+'Purple Maia' if the number is divisible by both 3 and 5
+*/
+
+for(let i = 0; i<=60; i++){
+  if(i%15 === 0){
+    console.log('Purple Maia');
+  }else if (i%5 === 0){
+    console.log('Maia');
+  }else if (i%3 === 0){
+    console.log('Purple');
+  }else{
+    console.log(i);
+  }
+}
+
